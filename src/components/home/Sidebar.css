@@ -1,0 +1,43 @@
+.sidebar {
+  background: #FFFFFF;
+  border-right: 1px solid #C0C0C0;
+  white-space: nowrap;
+  height: 100vh;
+}
+
+
+span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #808493;
+}
+
+/* .active {
+  border-right: 3px solid #47C269;
+} */
+
+.link {
+  display: flex;
+  align-items: center;
+  /* border-radius: 5px; */
+  gap: 5px;
+  padding: 10px;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+.link:hover {
+  border-right: 3px solid #47C269;
+}
+
+.active {
+  border-right: 3px solid #47C269;
+}
+
+.link:hover span {
+  color: #47C269;
+}
+
+.react-icons {
+  vertical-align: middle;
+}
